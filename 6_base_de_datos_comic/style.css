@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   color: #333;
 }
 
-/* HEADER */
+
 .main-header {
   display: flex;
   justify-content: space-between;
@@ -39,14 +39,18 @@ body {
   color: #ffcc00;
 }
 
-/* ATLANTIS SECTION */
+.container{
+  background-color: #1D1D1D;
+
+}
 .atlantis-section {
   display: flex;
   flex-wrap: wrap;
   padding: 60px 40px;
-  background-color: #1D1D1D;
   gap: 40px;
   align-items: center;
+  max-width: 1300px;
+  margin: auto;
 }
 
 .text-content {
@@ -81,11 +85,15 @@ body {
   height: auto;
 }
 
-/* EPISODES SECTION */
+.container2{
+  background-color: #eef2f7;
+
+}
 .episodes-section {
   padding: 60px 40px;
-  background-color: #eef2f7;
   text-align: center;
+  max-width: 1500px;
+  margin: auto;
 }
 
 .episodes-section h2 {
@@ -129,9 +137,11 @@ body {
   background-color: #f9f9f9;
 }
 
-/* FOOTER */
-.main-footer {
+.container3{
   background-color: #4BA358;
+
+}
+.main-footer {
   color: white;
   padding: 40px 30px;
   display: flex;
@@ -139,6 +149,8 @@ body {
   justify-content: space-between;
   align-items: center;
   border-top: 4px solid #93F4C7;
+  max-width: 1300px;
+  margin: auto;
 }
 
 .footer-links {
@@ -177,4 +189,116 @@ body {
 .icons{
   width: 30px;
   height: 20px;
+}
+
+.name-cap{
+  font-weight: bolder;
+  text-align: justify;
+  font-size: 15px;
+  margin: 20px;
+}
+
+
+@media (max-width: 1024px) {
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .nav-links {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .atlantis-section {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .text-content h1 {
+    font-size: 2rem;
+  }
+
+  .text-content p {
+    font-size: 1rem;
+  }
+
+  .image-content img {
+    width: 80%;
+  }
+
+  .episodes-section {
+    padding: 40px 20px;
+  }
+
+  .main-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+
+  .atlantis-section {
+    flex-direction: column;
+    padding: 30px 15px;
+  }
+
+  .text-content h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .text-content p {
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+
+  .image-content img {
+    width: 100%;
+  }
+
+  .episodes-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .episode-card h3 {
+    font-size: 1rem;
+  }
+
+  .main-footer {
+    padding: 30px 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
 }

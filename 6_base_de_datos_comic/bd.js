@@ -1,12 +1,12 @@
 const comic = {
 
-"nombreComic": "IGNNIS",
+"nombreComic": "Cuando La Tierra Calla",
 
 "categoria": "Apocalipsis",
 
 "cantidadCap": 5,
 
-"descripcion": "Trata de Sostenibilidad y recursos naturales",
+"descripcion": "En un mundo donde la humanidad rompió su pacto con la Tierra, las estaciones desaparecieron y el suelo dejó de dar frutos, marcando el inicio de un apocalipsis anunciado por profetas olvidados y visiones de inocentes: las Siete Copas de la Ira, castigos que simbolizan la furia de la Creación contra su cuidador infiel. Cada copa derramada no trae magia inmediata, sino el desenlace de siglos de destrucción y arrogancia. En medio del colapso, una red de buscadores espirituales llamada La Última Semilla lucha por preservar el conocimiento ancestral y hallar un lugar donde la Tierra aún responda, antes de que el tiempo y la esperanza se extingan",
 
 "personajes": ["Aina", "Kiran", "Padre Theo"],
 
@@ -16,7 +16,7 @@ const comic = {
 
 nombreCap: "Visiones del Abismo",
 
-imgPortada: "assets/imagen1.jpg",
+imgPortada: "./assest/imagen1.png",
 
 video: "video/cap1.mp4",
 
@@ -30,7 +30,7 @@ personajes: ["Aina", "Kiran", "Padre Theo"]
 
 nombreCap: "Advertencia del Fuego",
 
-imgPortada: "assets/imagen2.jpg",
+imgPortada: "assest/imagen2.png",
 
 video: "video/cap2.mp4",
 
@@ -44,7 +44,7 @@ personajes: ["Aina", "Kiran", "Padre Theo"]
 
 nombreCap: "La espereza en la ruina",
 
-imgPortada: "assets/imagen3.jpg",
+imgPortada: "assest/imagen3.png",
 
 video: "video/cap2.mp4",
 
@@ -57,9 +57,9 @@ personajes: ["Aina", "Kiran", "Padre Theo"]
 
 {
 
-nombreCap: "Ecos del",
+nombreCap: "Ecos del Silencio",
 
-imgPortada: "assets/imagen4.jpg",
+imgPortada: "assest/imagen4.png",
 
 video: "video/cap2.mp4",
 
@@ -74,7 +74,7 @@ personajes: ["Aina", "Kiran", "Padre Theo"]
 
 nombreCap: "El renacer de las corazon verde",
 
-imgPortada: "assets/imagen5.jpg",
+imgPortada: "assest/imagen5.png",
 
 video: "video/cap2.mp4",
 
